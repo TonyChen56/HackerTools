@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="主程序">
+      <UniqueIdentifier>{458a37c6-9ab0-4c67-974b-6a65f33ea878}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="用户工具">
+      <UniqueIdentifier>{6e39adda-8c4b-4cb5-9982-f90bb84d1df9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="内核工具">
+      <UniqueIdentifier>{e864eaf0-d273-44a2-8065-569321235051}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="选项卡">
+      <UniqueIdentifier>{1af0b423-d822-40b7-b1be-269801486062}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="用户工具\基础技术">
+      <UniqueIdentifier>{fc177c07-5661-4db2-85de-7e92db77846c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="用户工具\注入技术">
+      <UniqueIdentifier>{016481d5-5f1d-4a7a-948b-7b9a6f1f236a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="用户工具\启动技术">
+      <UniqueIdentifier>{096d8c79-992c-4365-8c7b-427aca911f85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="用户工具\自启动技术">
+      <UniqueIdentifier>{88cb137f-eb95-4834-b894-1a7d0860f15b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="用户工具\提权技术">
+      <UniqueIdentifier>{e79bc110-7121-47c5-9fda-edfb6e58fd61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="用户工具\隐藏技术">
+      <UniqueIdentifier>{e0f538e7-546f-4349-bf48-d38bb069d770}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="用户工具\压缩技术">
+      <UniqueIdentifier>{d684ad68-ca4b-4fba-9c74-0c5c969c6b24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="用户工具\加密技术">
+      <UniqueIdentifier>{ce416a8a-c795-4f41-a04b-c31be78774a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="用户工具\功能技术">
+      <UniqueIdentifier>{8d28b494-60c4-4f76-82ac-47ca94b52206}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="用户工具\用户工具主界面">
+      <UniqueIdentifier>{b217ef9b-85cd-4e48-abb0-81a987946aee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="帮助">
+      <UniqueIdentifier>{25230fe5-2075-41f7-82e3-9eed18ae6ce9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="用户工具\功能技术\进程遍历">
+      <UniqueIdentifier>{aef7b05a-3b36-4038-8802-a40df8d59b98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="用户工具\功能技术\文件遍历">
+      <UniqueIdentifier>{0443a96a-353b-4b29-aa16-0f3ea98df77c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="用户工具\功能技术\功能技术窗口">
+      <UniqueIdentifier>{758ec97c-4ac3-4869-982a-c9e2053d00b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="用户工具\功能技术\文件遍历\查看磁盘">
+      <UniqueIdentifier>{b511e7e6-66fb-4aef-a9c6-2186e595589f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="用户工具\功能技术\文件遍历\文件遍历窗口">
+      <UniqueIdentifier>{c4c58e9a-b722-4389-a38e-3382c4953963}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="用户工具\功能技术\文件遍历\文件属性">
+      <UniqueIdentifier>{13021139-1767-46da-b9f2-fa6a7dfffa9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="用户工具\功能技术\CMD执行结果">
+      <UniqueIdentifier>{3f127b54-7f88-4404-8d10-505e51145d9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="用户工具\功能技术\文件监控">
+      <UniqueIdentifier>{bbf020fe-218c-4fac-a143-2d5d1744f47b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CDia_Core.h">
+      <Filter>内核工具</Filter>
+    </ClInclude>
+    <ClInclude Include="HackerToolsDlg.h">
+      <Filter>主程序</Filter>
+    </ClInclude>
+    <ClInclude Include="CMyTableCtrl.h">
+      <Filter>选项卡</Filter>
+    </ClInclude>
+    <ClInclude Include="CBase.h">
+      <Filter>用户工具\基础技术</Filter>
+    </ClInclude>
+    <ClInclude Include="CInject.h">
+      <Filter>用户工具\注入技术</Filter>
+    </ClInclude>
+    <ClInclude Include="CStrat.h">
+      <Filter>用户工具\启动技术</Filter>
+    </ClInclude>
+    <ClInclude Include="CDia_User.h">
+      <Filter>用户工具\用户工具主界面</Filter>
+    </ClInclude>
+    <ClInclude Include="CSelfStart.h">
+      <Filter>用户工具\自启动技术</Filter>
+    </ClInclude>
+    <ClInclude Include="CMyTaskSchedule.h">
+      <Filter>用户工具\自启动技术</Filter>
+    </ClInclude>
+    <ClInclude Include="CPrivilege.h">
+      <Filter>用户工具\提权技术</Filter>
+    </ClInclude>
+    <ClInclude Include="CHide.h">
+      <Filter>用户工具\隐藏技术</Filter>
+    </ClInclude>
+    <ClInclude Include="CCompress.h">
+      <Filter>用户工具\压缩技术</Filter>
+    </ClInclude>
+    <ClInclude Include="CEncrypt.h">
+      <Filter>用户工具\加密技术</Filter>
+    </ClInclude>
+    <ClInclude Include="HackerTools.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CHelp.h">
+      <Filter>帮助</Filter>
+    </ClInclude>
+    <ClInclude Include="CEnumProcess.h">
+      <Filter>用户工具\功能技术\进程遍历</Filter>
+    </ClInclude>
+    <ClInclude Include="CFunction.h">
+      <Filter>用户工具\功能技术\功能技术窗口</Filter>
+    </ClInclude>
+    <ClInclude Include="CDisk.h">
+      <Filter>用户工具\功能技术\文件遍历\查看磁盘</Filter>
+    </ClInclude>
+    <ClInclude Include="CEnumFiles.h">
+      <Filter>用户工具\功能技术\文件遍历\文件遍历窗口</Filter>
+    </ClInclude>
+    <ClInclude Include="CFileAttr.h">
+      <Filter>用户工具\功能技术\文件遍历\文件属性</Filter>
+    </ClInclude>
+    <ClInclude Include="CCmdResult.h">
+      <Filter>用户工具\功能技术\CMD执行结果</Filter>
+    </ClInclude>
+    <ClInclude Include="CFileMonit.h">
+      <Filter>用户工具\功能技术\文件监控</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="HackerTools.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HackerToolsDlg.cpp">
+      <Filter>主程序</Filter>
+    </ClCompile>
+    <ClCompile Include="CDia_Core.cpp">
+      <Filter>内核工具</Filter>
+    </ClCompile>
+    <ClCompile Include="CMyTableCtrl.cpp">
+      <Filter>选项卡</Filter>
+    </ClCompile>
+    <ClCompile Include="CBase.cpp">
+      <Filter>用户工具\基础技术</Filter>
+    </ClCompile>
+    <ClCompile Include="CInject.cpp">
+      <Filter>用户工具\注入技术</Filter>
+    </ClCompile>
+    <ClCompile Include="CStrat.cpp">
+      <Filter>用户工具\启动技术</Filter>
+    </ClCompile>
+    <ClCompile Include="CDia_User.cpp">
+      <Filter>用户工具\用户工具主界面</Filter>
+    </ClCompile>
+    <ClCompile Include="CSelfStart.cpp">
+      <Filter>用户工具\自启动技术</Filter>
+    </ClCompile>
+    <ClCompile Include="CMyTaskSchedule.cpp">
+      <Filter>用户工具\自启动技术</Filter>
+    </ClCompile>
+    <ClCompile Include="CPrivilege.cpp">
+      <Filter>用户工具\提权技术</Filter>
+    </ClCompile>
+    <ClCompile Include="CHide.cpp">
+      <Filter>用户工具\隐藏技术</Filter>
+    </ClCompile>
+    <ClCompile Include="CCompress.cpp">
+      <Filter>用户工具\压缩技术</Filter>
+    </ClCompile>
+    <ClCompile Include="CEncrypt.cpp">
+      <Filter>用户工具\加密技术</Filter>
+    </ClCompile>
+    <ClCompile Include="CHelp.cpp">
+      <Filter>帮助</Filter>
+    </ClCompile>
+    <ClCompile Include="CEnumProcess.cpp">
+      <Filter>用户工具\功能技术\进程遍历</Filter>
+    </ClCompile>
+    <ClCompile Include="CFunction.cpp">
+      <Filter>用户工具\功能技术\功能技术窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="CDisk.cpp">
+      <Filter>用户工具\功能技术\文件遍历\查看磁盘</Filter>
+    </ClCompile>
+    <ClCompile Include="CEnumFiles.cpp">
+      <Filter>用户工具\功能技术\文件遍历\文件遍历窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="CFileAttr.cpp">
+      <Filter>用户工具\功能技术\文件遍历\文件属性</Filter>
+    </ClCompile>
+    <ClCompile Include="CCmdResult.cpp">
+      <Filter>用户工具\功能技术\CMD执行结果</Filter>
+    </ClCompile>
+    <ClCompile Include="CFileMonit.cpp">
+      <Filter>用户工具\功能技术\文件监控</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="HackerTools.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\HackerTools.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\guishou1.bin">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\Debug\MyHookDll.dll" />
+    <None Include="C:\Users\GuiShou\Desktop\TestDll.dll" />
+    <None Include="..\Debug\TestDll.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\HackerTools.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
