@@ -1,3 +1,5 @@
+[TOC]
+
 ## 前言
 
 前段时间一直在看Windows黑客编程技术详解这本书，然后就想着与其一个例子一个例子的敲，倒不如把书上的例子写成一个项目，作为一个集合，这样既有利于面试 也方便以后代码的复用。最后花了半个月的时间就有了下面的东西。
@@ -6,14 +8,17 @@
 
 用MFC写的  界面有点low 不要在意这些细节。
 
-![](https://ws1.sinaimg.cn/large/006Rs2Luly1g0bfcrb8mmj30dv0b00sy.jpg)
+![1](assets/1.png)
 
 ## 代码视图
 
 代码的话放一个大概的类视图 详细的就不贴了实在是太多。
 
-![](https://ws1.sinaimg.cn/large/006Rs2Luly1g0bfhk09kkj30a40ejq3c.jpg)
-![](https://ws1.sinaimg.cn/large/006Rs2Luly1g0bfhk09jgj30bn0fi0t6.jpg)
+![2](assets/2.png)
+
+
+
+![3](assets/3-1556291686399.png)
 
 ## 功能介绍
 
@@ -21,7 +26,7 @@
 
 ### 基础技术
 
-![](https://ws1.sinaimg.cn/large/006Rs2Luly1g0bflfoxbxj30br09sq34.jpg)
+![4](assets/4.png)
 
 #### 防双开 
 
@@ -35,7 +40,7 @@
 
 ### 注入技术
 
-![](https://ws1.sinaimg.cn/large/006Rs2Luly1g0bfs8kovzj30d70dcjrn.jpg)
+![5](assets/5.png)
 
 #### 全局钩子注入
 
@@ -65,7 +70,7 @@
 
 ### 启动技术
 
-![](https://ws1.sinaimg.cn/large/006Rs2Luly1g0bg3e9hf0j30d90czwej.jpg)
+![6](assets/6.png)
 
 #### 三种方式创建进程
 
@@ -81,7 +86,7 @@
 
 ### 自启动技术
 
-![](https://ws1.sinaimg.cn/large/006Rs2Luly1g0bhngce3hj30dh0dtglv.jpg)
+![7](assets/7.png)
 
 #### 注册表
 
@@ -120,7 +125,7 @@
 
 ### 提权技术
 
-![](https://ws1.sinaimg.cn/large/006Rs2Luly1g0bgf2yejzj30it0gpq34.jpg)
+![8](assets/8.png)
 
 #### 提升为Debug权限
 
@@ -141,7 +146,7 @@
 
 ### 隐藏技术
 
-![](https://ws1.sinaimg.cn/large/006Rs2Luly1g0bgj8lpyyj30fo09s0sm.jpg)
+![9](assets/9.png)
 
 #### 进程伪装
 
@@ -169,7 +174,7 @@
 
 ### 压缩技术
 
-![](https://ws1.sinaimg.cn/large/006Rs2Luly1g0bgpnxo0uj30eg0cpwen.jpg)
+![10](assets/10.png)
 
 #### 数据解压缩
 
@@ -183,7 +188,7 @@
 
 ### 加密技术
 
-![](https://ws1.sinaimg.cn/large/006Rs2Luly1g0bgsenj4qj30et0eyjrg.jpg)
+![11](assets/11.png)
 
 #### HASH
 
@@ -203,7 +208,7 @@
 
 ### 功能技术
 
-![](https://ws1.sinaimg.cn/large/006Rs2Luly1g0bgvciqc6j30g00dw74w.jpg)
+![12](assets/12.png)
 
 #### 进程遍历
 
@@ -258,8 +263,7 @@
 1. 本程序仅用于交流和研究，请勿用于其他用途。有任何后果与本人无关
 2. 由于环境不一样 所以不能保证每个功能在每台机器上都是可行的。如果程序有bug还请多多体谅
 3. 如果发现缺dll或者没有测试文件的情况在工程项目下都可找到，可自行编译。
-4. 本程序编写环境为W10 64 VS2017 最后附上源码
-5. 最后附上自己的CSDN博客:https://blog.csdn.net/qq_38474570 求关注点赞 收藏
+4. 本程序编写环境为W10 64 VS2017 最后附上源码下载地址：https://github.com/TonyChen56/HackerTools
 
 
 
